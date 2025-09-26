@@ -4,16 +4,16 @@ echo "Bem-vindo(a) ao screen match! \n";
 
 $nomeFilme = "Top Gun - Maverick";
 
+$anoLancamento = 2022;
 
-$anoLancamento = $argv[1] ?? 2022;
+$quantidadeDeNotas = $argc - 1;
+$somaDeNotas = 0;
 
-$somaDeNotas = 9;
-$somaDeNotas += 6;
-$somaDeNotas += 8;
-$somaDeNotas += 7.5;
-$somaDeNotas += 5;
+for ($i = 1; $i < $argc; $i++) {
+  $somaDeNotas += $argv[$i];
+}
 
-$notaFilme = $somaDeNotas / 5;
+$notaFilme = $somaDeNotas / $quantidadeDeNotas;
 $planoPrime = true;
 
 $incluidoNoPlano = $planoPrime || $anoLancamento < 2020;
