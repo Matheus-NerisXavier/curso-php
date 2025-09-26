@@ -13,6 +13,12 @@ for ($i = 1; $i < $argc; $i++) {
   $somaDeNotas += $argv[$i];
 }
 
+// $contador = 1;
+// while ($argv[$contador] != 0) {
+//   $somaDeNotas += $argv[$contador++];
+// }
+
+
 $notaFilme = $somaDeNotas / $quantidadeDeNotas;
 $planoPrime = true;
 
