@@ -2,7 +2,7 @@
 <?php
 
 $numero = 10;
-        
+ 
 while ($numero >= 0) {
   echo "$numero\n";
   sleep(1);
