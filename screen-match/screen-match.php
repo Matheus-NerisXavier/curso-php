@@ -44,4 +44,13 @@ $genero = match ($nomeFilme) {
   default => "gênero desconhecido"
 };
 
-echo "O gênero do filme é: $genero";
+echo "O gênero do filme é: $genero\n";
+
+$filme = [
+  "nome" => "Thor: Ragnarok",
+  "ano" => 2021,
+  "nota" => 7.8,
+  "genero" => "super-heroi",
+];
+
+echo $filme["nome"];
