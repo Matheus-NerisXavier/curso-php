@@ -15,7 +15,7 @@ function calcularImc (float $peso, float $altura): string {
     $classificacao = "Obesidade";
   }
 
-  return "Seu IMC é $imcFormatado e sua classifição foi: $classificacao";
+  return "Seu IMC é $imcFormatado e sua classificação foi: $classificacao";
   
 }
 
