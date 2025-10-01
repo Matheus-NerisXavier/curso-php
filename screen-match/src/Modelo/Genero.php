@@ -1,6 +1,7 @@
 <?php
 
-enum Genero {
+enum Genero 
+{
   case Acao;
   case Comedia;
   case Terror;
