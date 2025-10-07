@@ -2,6 +2,7 @@
 
 require __DIR__ . '/src/Modelo/Genero.php';
 require __DIR__ . '/src/Modelo/Titulo.php';
+require __DIR__ . '/src/Modelo/Episodio.php';
 require __DIR__ . '/src/Modelo/Serie.php';
 require __DIR__ . '/src/Modelo/Filme.php';
 require __DIR__ . '/src/Calculos/CalculadoraDeMaratona.php';
@@ -34,6 +35,8 @@ $serie = new Serie(
   20,
   30
 );
+
+$episodio = new Episodio($serie, 'Episódio piloto', 1);
 
 echo $serie->anoLancamento . "\n";
 $serie->avalia(8);
