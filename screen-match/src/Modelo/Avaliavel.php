@@ -1,5 +1,7 @@
 <?php
 
+namespace ScreenMath\Modelo;
+
 interface Avaliavel 
 {
   public function avalia(float $nota): void;

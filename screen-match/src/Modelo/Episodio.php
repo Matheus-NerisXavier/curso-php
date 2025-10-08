@@ -1,5 +1,7 @@
 <?php 
 
+namespace ScreenMath\Modelo;
+
 class Episodio implements Avaliavel
 {
   use ComAvaliacao;

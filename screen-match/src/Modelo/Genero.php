@@ -1,5 +1,7 @@
 <?php
 
+namespace ScreenMath\Modelo;
+
 enum Genero 
 {
   case Acao;
